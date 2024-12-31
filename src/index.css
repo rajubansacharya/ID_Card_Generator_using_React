@@ -1,0 +1,106 @@
+/* *{
+  font-family: "Controller Ext W01 Four";
+} */
+
+
+@font-face {
+  font-family: "pascal";
+  src: local("pascal"),
+    url("./fonts/pascal.otf") format("opentype");
+  font-weight: normal;
+}
+
+/* App.jsx main div */
+.Main-Id-Container {
+  width: 5.4cm;
+  height: 8.56cm;
+  border: 1px solid black;
+  position: relative;
+  flex-wrap: wrap;
+}
+.header-main-div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-image {
+  height: 60px;
+  width: 5.4cm;
+  margin: 0;
+}
+
+.student-identity{
+  width: 5.4cm;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #5d3239;
+  color: white; 
+}
+
+
+
+
+/* userDetails Part */
+
+.user-info-container {
+  font-size: 0.55rem;
+  align-items: flex-start; 
+  justify-content: space-evenly;
+}
+
+.footer-one {
+  margin-top: 1px;
+  background-color: #760a2c;
+  border: 1px solid #760a2c;
+  height: 6px;
+}
+
+.footer-two {
+  margin-top: 4px;
+  background-color: #831434;
+  border: 1px solid #831434;
+  height: 17px;
+}
+
+.user-label{
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+
+.idcard {
+  width: 5.4cm;
+  height: 8.56cm;
+  
+}
+.principal-container{
+  display: flex;
+  
+}
+.signature{
+  
+  margin-left: 50px;
+   
+  height: 30px;
+  width: 60px;
+  
+  position: relative;
+}
+
+
+.rajuImage{
+  height: 50px;
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 60px;
+  border: 1px solid red;
+}
+
+
+.usernameclass{
+  margin-left: 60px;
+  display: block;  /* Ensure it behaves as a block element */
+  
+}
